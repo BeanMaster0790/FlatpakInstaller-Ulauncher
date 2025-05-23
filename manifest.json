@@ -1,5 +1,5 @@
 {
-  "required_api_version": "2",
+  "required_api_version": "^2.0.0",
   "name": "Flatpak Manager",
   "description": "Install, remove and update apps from the Flathub",
   "developer_name": "Beans",
