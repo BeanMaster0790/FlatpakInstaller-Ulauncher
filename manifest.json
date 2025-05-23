@@ -1,7 +1,7 @@
 {
   "required_api_version": "2",
   "name": "Flatpak Manager",
-  "description": "Extension Description",
+  "description": "Install, remove and update apps from the Flathub",
   "developer_name": "Beans",
   "icon": "images/icon.png",
   "options": {
@@ -11,9 +11,9 @@
     {
       "id": "kw",
       "type": "keyword",
-      "name": "Demo",
-      "description": "Demo extension",
-      "default_value": "dm"
+      "name": "Flatpak keyword",
+      "description": "What must be typed to begin a search",
+      "default_value": "fk"
     }
   ]
 }
