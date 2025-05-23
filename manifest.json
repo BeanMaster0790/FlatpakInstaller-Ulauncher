@@ -1,0 +1,19 @@
+{
+  "required_api_version": "2",
+  "name": "Flatpak Manager",
+  "description": "Extension Description",
+  "developer_name": "Beans",
+  "icon": "images/icon.png",
+  "options": {
+    "query_debounce": 1
+  },
+  "preferences": [
+    {
+      "id": "kw",
+      "type": "keyword",
+      "name": "Demo",
+      "description": "Demo extension",
+      "default_value": "dm"
+    }
+  ]
+}
