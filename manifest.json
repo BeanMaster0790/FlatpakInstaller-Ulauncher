@@ -11,7 +11,7 @@
     {
       "id": "kw",
       "type": "keyword",
-      "name": "Flatpak keyword",
+      "name": "Flatpak",
       "description": "What must be typed to begin a search",
       "default_value": "fk"
     }
