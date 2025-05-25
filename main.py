@@ -7,6 +7,8 @@ from ulauncher.api.shared.item.ExtensionResultItem import ExtensionResultItem
 from ulauncher.api.shared.action.RenderResultListAction import RenderResultListAction
 from ulauncher.api.shared.action.RunScriptAction import RunScriptAction
 from ulauncher.api.shared.action.HideWindowAction import HideWindowAction
+from ulauncher.api.shared.action.OpenUrlAction import OpenUrlAction
+
 
 import requests
 
@@ -21,6 +23,12 @@ def FileActionResults(extension, app_id):
                     icon='images/Install.png',
                     name='Install',
                     on_enter=RunScriptAction(f"flatpak install -y flathub {app_id}")
+                ),
+                ExtensionResultItem
+                (
+                    icon='images/Open.png',
+                    name='View in Browser',
+                    on_enter=OpenUrlAction(f"https://flathub.org/apps/{app_id}")
                 )
             ]
     
